@@ -2,7 +2,7 @@ pipeline {
     agent { 
         docker {
             image 'node:7-alpine' 
-            label 'master'
+            label 'docker'
         }
     }
     stages {
