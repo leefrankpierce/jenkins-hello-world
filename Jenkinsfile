@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         docker {
-            image 'node:centos' 
+            image 'centos' 
             label 'docker'
         }
     }
