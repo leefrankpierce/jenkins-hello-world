@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'master'
+    agent { label 'docker',
         docker { 
             image 'node:7-alpine' 
             label 'build'
